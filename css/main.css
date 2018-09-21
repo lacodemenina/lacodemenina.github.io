@@ -1,0 +1,181 @@
+
+
+body {
+    margin: 0px;
+    background-color: white;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.navbar-container {
+    transition: all .2s ease-in-out;
+    position: fixed;
+
+    background-color: white;
+    width: 100vw;
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: center;  
+}
+
+.navbar-scrool {
+    height: 95px;
+}
+
+
+.logo-image {
+    transition: all .2s ease-in-out;
+    position: fixed;
+    display: block;
+    height: 150px;
+}
+
+.encolher {
+    position: fixed;
+    display: block;
+    height: 100px;
+
+}
+
+
+    
+.item-container {
+    /*background-color: rgb(236, 10, 10);*/
+    width: 100vw;
+    padding-top: 130px;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+    align-content: flex-start;
+    
+    max-width: 1200px;
+}
+
+
+
+.img-container {
+
+    width: 100%;
+    height: 350px;
+    min-width: 320px;
+    /*background-color: yellow;*/
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.item-description {
+    width: 96%;
+    margin: 2%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-card {
+    /*background-color: green;*/
+    margin: 10px;
+    margin-bottom: 30px;
+    min-width: 350px;
+    min-height: 350px;
+    max-width:360px;
+    cursor: pointer;   
+    
+    background-color: #ffefef
+
+}
+
+
+.img-preview {
+    width: 100%
+}
+
+hr {
+
+    width: 30px;
+    border: 0;
+    height: 1px;
+    background: rgb(104, 104, 104);
+   
+}
+
+h3 {
+    margin: 0px;
+}
+
+
+.center-container {
+    width: 100%;
+    background-color: red;
+    height:50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.social-media-container {
+
+    position: relative;
+    /* background-color: rgba(95, 95, 95, 0.5); */
+    width: 100%;
+    max-width: 800px;
+    height: 50px;
+
+}
+
+.instagram {
+ 
+    opacity:0.8;
+    height: 30px;
+    left: 15px;
+    top: 15px;
+    position: relative;
+}
+
+.facebook {
+ 
+    height: 30px;
+    left: 12px;
+    top: 12px;
+    position: relative;
+}
+
+
+.footer {
+
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-top: solid;
+    border-color: #e1e1e1;
+    border-width: 1px;
+}

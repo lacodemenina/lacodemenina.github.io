@@ -1,0 +1,161 @@
+
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>* Laço de Menina *</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+
+    <div id="navbar" class="navbar-container">
+        <img id="logo" class="logo-image" src="img/logo.png">
+    </div>
+ 
+    <div class="center-container">
+        <div class="social-media-container">
+           <a href="https://www.instagram.com"> <img class="instagram" src="src/svg/instagram.svg" alt="ir para instagram" height="30px"></a>
+        </div>
+    </div>
+
+    <center>
+    <div class="item-container">
+
+
+        <div class="item-card">
+                   <div class="img-container">
+                    <img class="img-preview" src="img/lacos/laco1-350x350.png" alt="">
+                </div>
+
+                <div class="item-description">
+                        <h3 class="title"> Laura </h3>
+                        <hr>
+                        <h3 class="title"> 20,00 </h3>
+                </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                 <img class="img-preview" src="img/lacos/laco2-350x350.png" alt="">
+             </div>
+
+             <div class="item-description">
+                     <h3 class="title"> Ana </h3>
+                     <hr>
+                     <h3 class="title"> 20,00 </h3>
+        </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                     <img class="img-preview" src="img/lacos/laco3-350x350.png" alt="">
+                </div>
+    
+                <div class="item-description">
+                    <h3 class="title"> Olivia </h3>
+                    <hr>
+                    <h3 class="title"> 20,00 </h3>
+                </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                 <img class="img-preview" src="img/lacos/laco1-350x350.png" alt="">
+             </div>
+
+             <div class="item-description">
+                     <h3 class="title"> Laura </h3>
+                     <hr>
+                     <h3 class="title"> 20,00 </h3>
+             </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                <img class="img-preview" src="img/lacos/laco2-350x350.png" alt="">
+            </div>
+
+            <div class="item-description">
+                    <h3 class="title"> Ana </h3>
+                    <hr>
+                    <h3 class="title"> 20,00 </h3>
+        </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                    <img class="img-preview" src="img/lacos/laco3-350x350.png" alt="">
+                </div>
+    
+                <div class="item-description">
+                    <h3 class="title"> Isabella </h3>
+                    <hr>
+                    <h3 class="title"> 20,00 </h3>
+                </div>
+        </div>
+        <div class="item-card">
+                <div class="img-container">
+                    <img class="img-preview" src="img/lacos/laco3-350x350.png" alt="">
+                </div>
+    
+                <div class="item-description">
+                    <h3 class="title"> Isabella </h3>
+                    <hr>
+                    <h3 class="title"> 20,00 </h3>
+                </div>
+        </div>
+
+        <div class="item-card">
+                <div class="img-container">
+                    <img class="img-preview" src="img/lacos/laco3-350x350.png" alt="">
+                </div>
+    
+                <div class="item-description">
+                    <h3 class="title"> Isabella </h3>
+                    <hr>
+                    <h3 class="title"> 20,00 </h3>
+                </div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="footer">
+    © Todos os direitos reservados Laço de Menina
+    </div>
+
+</center>
+
+
+<script>
+
+
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+
+var navbar = document.getElementById("navbar");
+var logo = document.getElementById("logo");
+
+// Get the offset position of the navbar
+var sticky = logo.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("navbar-scrool")
+    logo.classList.add("encolher")
+  } else {
+    navbar.classList.remove("navbar-scrool");
+    logo.classList.remove("encolher")
+  }
+}
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
