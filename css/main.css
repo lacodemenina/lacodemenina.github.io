@@ -38,6 +38,7 @@ body {
 
 .logo-image {
     transition: all .2s ease-in-out;
+    user-select: none;
     position: fixed;
     display: block;
     height: 150px;
@@ -92,6 +93,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 .item-card {
@@ -109,7 +111,8 @@ body {
 
 
 .img-preview {
-    width: 100%
+    width: 100%;
+    user-select: none;
 }
 
 hr {
@@ -156,6 +159,7 @@ h3 {
     left: 30px;
     top: 20px;
     position: relative;
+    user-select: none;
 }
 
 .facebook {
@@ -164,6 +168,7 @@ h3 {
     left: 12px;
     top: 12px;
     position: relative;
+    user-select: none;
 }
 
 
@@ -171,6 +176,7 @@ h3 {
 
     height: 60px;
     display: flex;
+    user-select: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -178,4 +184,5 @@ h3 {
     border-top: solid;
     border-color: #e1e1e1;
     border-width: 1px;
+
 }
