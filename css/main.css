@@ -128,7 +128,7 @@ h3 {
 
 .center-container {
     width: 100%;
-    background-color: red;
+    /*background-color: red;*/
     height:50px;
 
     display: flex;
