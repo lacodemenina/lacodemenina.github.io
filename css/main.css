@@ -27,6 +27,7 @@ body {
     height: 140px;
     padding-top: 10px;
     padding-bottom: 20px;
+    border-bottom: 1px solid #e1e1e1;
 
     display: flex;
     justify-content: center;  
@@ -203,7 +204,7 @@ h3 {
 
 .paralax {
 
-    margin-top: 126px;
+    margin-top: 119px;
     overflow: hidden;
     width: 100%;
     background-image: url(/img/heroimage.jpg);
