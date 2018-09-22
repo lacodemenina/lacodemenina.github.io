@@ -14,11 +14,19 @@
     <div id="navbar" class="navbar-container">
         <img id="logo" class="logo-image" src="img/logo.png" alt="Laço de Menina">
     </div>
+    <div class="menu"  id="menu"></div>
  
     <div class="center-container">
         <div class="social-media-container">
            <a href="https://www.instagram.com"> <img class="instagram" src="src/svg/instagram.svg" alt="ir para instagram" height="30px" onclick="alertar()"></a>
+        
+           <img class="menu-svg" src="src/svg/laco.svg" alt="menu" height="60px" onclick="abrirMenu()">
+ 
         </div>
+
+           
+
+
     </div>
 
 
@@ -163,6 +171,26 @@ function myFunction() {
 
 function alertar(){
     alert("lembrete para lembrar a Erika de criar um instagram....")
+}
+
+
+var menuAtivo = false
+
+function abrirMenu(){
+
+    if (menuAtivo === false) {
+        document.getElementById("menu").style.transform = "translate3d(0px, 0, 0)"
+        menuAtivo = true
+        return
+    } 
+
+     if (menuAtivo === true) {
+        console.log('sim')
+        document.getElementById("menu").style.transform = "translate3d(260px, 0, 0)"
+        menuAtivo = false
+        return
+    } 
+
 }
 
 
