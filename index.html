@@ -54,8 +54,8 @@
         </div>
     </div>
 
-    <!-- fullscreen product preview image style="visibility: hidden"-->
-    <div id="fullscreen-image" class="fullscreen-image"  onclick="hidePreview()">
+    <!-- fullscreen product preview image -->
+    <div id="fullscreen-image" class="fullscreen-image"  style="visibility: hidden" onclick="hidePreview()">
         <img class="product-image" src="/img/lacos/laco1.png" alt="">
     </div>
     
@@ -166,10 +166,9 @@
 <script>
 
 
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() { 
-    myFunction() 
-    hideMenu()
+// When the user scrolls the page, execute:
+window.onscroll = function() {
+    myFunction(); hideMenu(); hidePreview()
 }
 
 // Get the navbar
