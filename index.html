@@ -53,12 +53,17 @@
         <h2>BELEZA QUE SE VÊ</h2>
         </div>
     </div>
+
+    <!-- fullscreen product preview image style="visibility: hidden"-->
+    <div id="fullscreen-image" class="fullscreen-image"  onclick="hidePreview()">
+        <img class="product-image" src="/img/lacos/laco1.png" alt="">
+    </div>
     
     <center>
     <div class="item-container">
 
 
-        <div class="item-card">
+        <div class="item-card" onclick="showProduct()">
                    <div class="img-container">
                     <img class="img-preview" src="img/lacos/laco1-350x350.png" alt="">
                 </div>
@@ -218,6 +223,27 @@ function hideMenu() {
     }
 }
 
+
+//product preview hero image
+
+function showProduct() {
+    
+    var imagePreview = document.getElementById("fullscreen-image")
+
+    if (imagePreview.style.visibility === "hidden") {
+        document.getElementById("fullscreen-image").style.visibility = "visible"
+    } else {
+        document.getElementById("fullscreen-image").style.visibility = "hidden"
+    }
+
+}
+
+function showPreview(){
+    document.getElementById("fullscreen-image").style.visibility = "visible"
+}
+function hidePreview(){
+    document.getElementById("fullscreen-image").style.visibility = "hidden"
+}
 
 
 
